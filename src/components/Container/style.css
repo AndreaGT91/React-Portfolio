@@ -1,0 +1,9 @@
+.my-container {
+  background-color: white;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1024px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

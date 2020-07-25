@@ -1,0 +1,14 @@
+/* Need to set width & margin so it will center in column */
+.figure {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  float: left;
+}
+
+/* Need right and bottom margin for space between when wrapping */
+.profile-figure {
+width: auto;
+margin-right: 20px;
+}
+
