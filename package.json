@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "hhttps://andreagt91.github.io/React-Portfolio/",
+  "homepage": "https://andreagt91.github.io/React-Portfolio/",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.13.1",
