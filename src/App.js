@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -8,9 +8,11 @@ import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
-function App() {
+function App(baseName) {
+  // For some reason, baseName comes through as object, not string
+  console.log(baseName);
   return (
-    <Router>
+    <BrowserRouter basename={baseName.baseName}>
       <div>
         <Nav />
         <Switch>
@@ -21,7 +23,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
 
