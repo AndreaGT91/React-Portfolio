@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -9,24 +9,25 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 function App() {
-  const pathArray = window.location.pathname.split("/");
-  let basePath = "";
+  // const pathArray = window.location.pathname.split("/");
+  // let basePath = "";
 
-  if (pathArray.length > 0) {
-    pathArray.pop();
-    basePath = pathArray.join("/");
-  };
+  // if (pathArray.length > 0) {
+  //   pathArray.pop();
+  //   basePath = pathArray.join("/");
+  // };
 
-  const [pathState] = useState(basePath);
+  // const [pathState] = useState(basePath);
 
-  console.log("Path: " + pathState);
+  // console.log("Path: " + pathState);
 
-  useEffect(() => {
-    console.log("Path (useEffect): " + pathState);
-  }, [pathState]);
+  // useEffect(() => {
+  //   console.log("Path (useEffect): " + pathState);
+  // }, [pathState]);
 
   return (
-    <HashRouter basename={pathState}>
+    // <Router basename={pathState}>
+    <Router>
       <div>
         <Nav />
         <Switch>
@@ -45,7 +46,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </HashRouter>
+    </Router>
   );
 };
 

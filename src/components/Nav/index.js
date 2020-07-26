@@ -1,32 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./style.css";
 
 function Nav() {
   return (
-    <div>
+    <>
       <div className="navbar-fixed">
         <nav className="light-blue darken-4 nav">
           <div className="nav-wrapper">
-            <a href="/About" className="brand-logo left">Andrea Bentley</a>
+            <Link to="/About" className="brand-logo left">Andrea Bentley</Link>
             <a href="#top" data-target="mobile-demo" className="sidenav-trigger right">
               <i className="material-icons">menu</i></a>
             <ul className="right hide-on-med-and-down">
-              <li className="li" id="main-about"><a href="/About">About</a></li>
-              <li className="li"><a href="/Portfolio">Portfolio</a></li>
-              <li className="li"><a href="/Contact">Contact</a></li>
+              <li className="li" id="main-about"><Link to="/About">About</Link></li>
+              <li className="li"><Link to="/Portfolio">Portfolio</Link></li>
+              <li className="li"><Link to="/Contact">Contact</Link></li>
             </ul>
           </div>
         </nav>
       </div>
 
       <ul className="sidenav sidenav-close" id="mobile-demo">
-        <li className="li" id="side-about"><a href="/About">About</a></li>
-        <li className="li"><a href="/Portfolio">Portfolio</a></li>
-        <li className="li"><a href="/Contact">Contact</a></li>
+        <li className="li" id="side-about"><Link to="/About">About</Link></li>
+        <li className="li"><Link to="/Portfolio">Portfolio</Link></li>
+        <li className="li"><Link to="/Contact">Contact</Link></li>
       </ul>
-    </div>
+    </>
   );
-}
+};
 
 export default Nav;
 
