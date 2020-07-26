@@ -30,14 +30,14 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/About"><About /></Route>
+          {/* <Route exact path="/About"><About /></Route>
           <Route exact path="/Portfolio"><Portfolio /></Route>
           <Route exact path="/Contact"><Contact /></Route>
-          <Route path="/*"><About /></Route>
-          {/* <Route exact path="/About" component={About} />
+          <Route path="/*"><About /></Route> */}
+          <Route exact path="/About" component={About} />
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
-          <Route path="/*" component={About} /> */}
+          <Route path="/*" component={About} />
           {/* <Route exact path="/About" render={() => <About />} />
           <Route exact path="/Portfolio" render={() => <Portfolio />} />
           <Route exact path="/Contact" render={() => <Contact />} />
