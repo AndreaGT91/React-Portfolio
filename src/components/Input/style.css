@@ -1,15 +1,16 @@
-.portfolio-div {
-  text-align: center;
+.input:disabled {
+  color: var(--text-color) !important;
+  font-size: 20px !important  ;
 }
 
 /* input field, label, and icon focus color */
-.input-field,
-.input-field .prefix.active {
+.input:focus {
     color: var(--main-color) !important;
 }
 
 /* label underline focus color */
-.input-field {
+.input:focus {
     border-bottom: 1px solid var(--main-color) !important;
     box-shadow: 0 1px 0 0 var(--main-color) !important;
 }
+

@@ -11,18 +11,18 @@ function Nav() {
             <a href="#top" data-target="mobile-demo" className="sidenav-trigger right">
               <i className="material-icons">menu</i></a>
             <ul className="right hide-on-med-and-down">
-              <li id="main-about"><a href="/About">About</a></li>
-              <li><a href="/Portfolio">Portfolio</a></li>
-              <li><a href="/Contact">Contact</a></li>
+              <li className="li" id="main-about"><a href="/About">About</a></li>
+              <li className="li"><a href="/Portfolio">Portfolio</a></li>
+              <li className="li"><a href="/Contact">Contact</a></li>
             </ul>
           </div>
         </nav>
       </div>
 
       <ul className="sidenav sidenav-close" id="mobile-demo">
-        <li id="side-about"><a href="/About">About</a></li>
-        <li><a href="/Portfolio">Portfolio</a></li>
-        <li><a href="/Contact">Contact</a></li>
+        <li className="li" id="side-about"><a href="/About">About</a></li>
+        <li className="li"><a href="/Portfolio">Portfolio</a></li>
+        <li className="li"><a href="/Contact">Contact</a></li>
       </ul>
     </div>
   );
