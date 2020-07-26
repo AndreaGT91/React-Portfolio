@@ -42,7 +42,7 @@ function Portfolio() {
               <Anchor htmlRef="https://aqueous-river-75295.herokuapp.com">
                 <Image classes="my-image" source={require("../assets/Task-Manager.png")} altText="Task Manager" />
               </Anchor>
-              <Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Task-Manager">
                 <figcaption>Task Manager (Homework)</figcaption>
               </Anchor>
             </Figure>
@@ -52,7 +52,7 @@ function Portfolio() {
               <Anchor htmlRef="http://bentleytech.com/assets/images/Employee-Tracker.gif">
                 <Image classes="my-image" source={require("../assets/Employee-Tracker.png")} altText="Employee Tracker" />
               </Anchor>
-              <Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Employee-Tracker">
                 <figcaption>Employee Tracker - CLI (Homework)</figcaption>
               </Anchor>
             </Figure>
@@ -62,7 +62,7 @@ function Portfolio() {
               <Anchor htmlRef="https://rocky-wildwood-54310.herokuapp.com">
                 <Image classes="my-image" source={require("../assets/Note-Taker.png")} altText="Note Taker" />
               </Anchor>
-              <Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Note-Taker">
                 <figcaption>Note Taker (Homework)</figcaption>
               </Anchor>
             </Figure>
@@ -72,7 +72,7 @@ function Portfolio() {
               <Anchor htmlRef="http://bentleytech.com/assets/images/Team-Template-Generator.gif">
                 <Image classes="my-image" source={require("../assets/Team-Template-Generator.png")} altText="Team Template Generator" />
               </Anchor>
-              <Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Team-Template-Generator">
                 <figcaption>Team Template Generator - CLI (Homework)</figcaption>
               </Anchor>
             </Figure>
@@ -82,7 +82,7 @@ function Portfolio() {
               <Anchor htmlRef="http://bentleytech.com/assets/images/Readme-Generator.gif">
                 <Image classes="my-image" source={require("../assets/Readme-Generator.png")} altText="Readme-Generator" />
               </Anchor>
-              <Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Readme-Generator">
                 <figcaption>Readme Generator - CLI (Homework)</figcaption>
               </Anchor>
             </Figure>
@@ -92,47 +92,51 @@ function Portfolio() {
               <Anchor htmlRef="https://andreagt91.github.io/Park-Planner/">
                 <Image classes="my-image" source={require("../assets/Park-Planner.png")} altText="Park Planner" />
               </Anchor>
-              <Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Park-Planner">
                 <figcaption>Park Planner (Group Project)</figcaption>
               </Anchor>
             </Figure>
           </Column>
-          {/* <div className="col s12 m6 l4" portfolio-div>
-            <figure>
-              <a href="https://andreagt91.github.io/Homework6/" target="_blank" rel="noopener noreferrer">
-                <img className="my-image" src="./assets/images/Weather-Dashboard.png" alt="Weather Dashboard webpage" /></a>
-              <a href="https://github.com/AndreaGT91/Homework6" target="_blank" rel="noopener noreferrer">
+          <Column page="Portfolio">
+            <Figure>
+              <Anchor htmlRef="https://andreagt91.github.io/Homework6/">
+                <Image classes="my-image" source={require("../assets/Weather-Dashboard.png")} altText="Weather Dashboard" />
+              </Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Homework6">
                 <figcaption>Weather Dashboard (Homework)</figcaption>
-              </a>
-            </figure>
-          </div>
-          <div className="col s12 m6 l4" portfolio-div>
-            <figure>
-              <a href="https://andreagt91.github.io/Homework5/" target="_blank" rel="noopener noreferrer">
-                <img className="my-image" src="./assets/images/Work-Day-Scheduler.png" alt="Work Day Scheduler webpage" /></a>
-              <a href="https://github.com/AndreaGT91/Homework5" target="_blank" rel="noopener noreferrer">
+              </Anchor>
+            </Figure>
+          </Column>
+          <Column page="Portfolio">
+            <Figure>
+              <Anchor htmlRef="https://andreagt91.github.io/Homework5/">
+                <Image classes="my-image" source={require("../assets/Work-Day-Scheduler.png")} altText="Work Day Scheduler" />
+              </Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Homework5">
                 <figcaption>Work Day Scheduler (Homework)</figcaption>
-              </a>
-            </figure>
-          </div>
-          <div className="col s12 m6 l4" portfolio-div>
-            <figure>
-              <a href="https://andreagt91.github.io/Homework4/" target="_blank" rel="noopener noreferrer">
-                <img className="my-image" src="./assets/images/Coding-Quiz.png" alt="Coding Quiz webpage" /></a>
-              <a href="https://github.com/AndreaGT91/Homework4" target="_blank" rel="noopener noreferrer">
+              </Anchor>
+            </Figure>
+          </Column>
+          <Column page="Portfolio">
+            <Figure>
+              <Anchor htmlRef="https://andreagt91.github.io/Homework4/">
+                <Image classes="my-image" source={require("../assets/Coding-Quiz.png")} altText="Coding Quiz" />
+              </Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Homework4">
                 <figcaption>Coding Quiz (Homework)</figcaption>
-              </a>
-            </figure>
-          </div>
-          <div className="col s12 m6 l4" portfolio-div>
-            <figure>
-              <a href="https://andreagt91.github.io/Homework3/" target="_blank" rel="noopener noreferrer">
-                <img className="my-image" src="./assets/images/Password-Generator.png" alt="Password Generator webpage" /></a>
-              <a href="https://github.com/AndreaGT91/Homework3" target="_blank" rel="noopener noreferrer">
+              </Anchor>
+            </Figure>
+          </Column>
+          <Column page="Portfolio">
+            <Figure>
+              <Anchor htmlRef="https://andreagt91.github.io/Homework3/">
+                <Image classes="my-image" source={require("../assets/Password-Generator.png")} altText="Password Generator" />
+              </Anchor>
+              <Anchor htmlRef="https://github.com/AndreaGT91/Homework3">
                 <figcaption>Password Generator (Homework)</figcaption>
-              </a>
-            </figure>
-          </div> */}
+              </Anchor>
+            </Figure>
+          </Column>
         </Row>
       </Container>
     </Wrapper>
