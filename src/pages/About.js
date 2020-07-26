@@ -18,7 +18,7 @@ function About() {
         <br />
         <Row>
           <Column page="About">
-          <Anchor htmlRef="http://bentleytech.com/assets/images/Andrea-Bentley-Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Anchor htmlRef="http://bentleytech.com/assets/images/Andrea-Bentley-Resume.pdf">
               <Figure classes="profile-figure">
                 <Image source={require("../assets/Profile.jpg")} altText="Andrea Bentley" />
                 <figcaption>Resume</figcaption>
