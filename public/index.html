@@ -30,5 +30,14 @@
     
     <!-- Materialize Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+    <!-- This prevents passive event violation, but causes error in materialize -->
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const elems = document.querySelectorAll('.sidenav');
+          const instances = M.Sidenav.init(elems, {edge: "right"});
+        });
+    </script>
   </body>
 </html>

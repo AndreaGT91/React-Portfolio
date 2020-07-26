@@ -2,14 +2,6 @@
   text-align: center;
 }
 
-/* input field, label, and icon focus color */
-.input-field,
-.input-field .prefix.active {
-    color: var(--main-color) !important;
-}
-
-/* label underline focus color */
-.input-field {
-    border-bottom: 1px solid var(--main-color) !important;
-    box-shadow: 0 1px 0 0 var(--main-color) !important;
+.input {
+  padding-top: 30px;
 }

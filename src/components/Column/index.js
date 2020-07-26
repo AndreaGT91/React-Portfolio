@@ -8,7 +8,7 @@ function Column({ page, children }) {
     classes = "col s12 m6 l4 portfolio-div";
   }
   else if (page === "Contact") {
-    classes = "input-field col s12";
+    classes = "input-field col s12 input";
   };
 
   return <div className={classes}>{children}</div>;

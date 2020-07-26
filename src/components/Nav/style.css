@@ -1,6 +1,7 @@
 /* Brand name too close to left edge */
 .nav {
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 .li {
