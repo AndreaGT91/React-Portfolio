@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import About from "./pages/About";
@@ -8,11 +8,25 @@ import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
-function App(baseName) {
-  // For some reason, baseName comes through as object, not string
-  console.log(baseName);
+function App() {
+  const pathArray = window.location.pathname.split("/");
+  let basePath = "";
+
+  if (pathArray.length > 0) {
+    pathArray.pop();
+    basePath = pathArray.join("/");
+  };
+
+  const [pathState] = useState(basePath);
+
+  console.log("Path: " + pathState);
+
+  useEffect(() => {
+    console.log("Path (useEffect): " + pathState);
+  }, [pathState]);
+
   return (
-    <BrowserRouter basename={baseName.baseName}>
+    <BrowserRouter basename={pathState}>
       <div>
         <Nav />
         <Switch>
