@@ -1,6 +1,25 @@
 # React-Portfolio
 Redesigned personal portfolio using React
 
+## GitHub Repository
+[github.com/AndreaGT91/React-Portfolio](https://github.com/AndreaGT91/React-Portfolio)
+
+## GitHub Deployment
+[andreagt91.github.io/React-Portfolio/](https://andreagt91.github.io/React-Portfolio/)
+
+## Installation 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
+## Usage 
+ `npm start`   
+ [localhost:3000/](http://localhost:3000/)
+
+## Questions 
+ ![Andrea Bentley](https://avatars2.githubusercontent.com/u/58275699?v=4&s=48)  Andrea Bentley  (AndreaGT91)     
+[andrea@bentleytech.com](mailto:andrea@bentleytech.com)
+
+
+## Assignment:
 # Unit 20 React Homework: React Portfolio
 
 Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.

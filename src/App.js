@@ -1,4 +1,3 @@
-// import React from 'react';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -22,7 +21,6 @@ function App() {
 
   return (
     <Router basename={pathState}>
-    {/* <Router> */}
       <div>
         <Nav />
         <Switch>
@@ -30,14 +28,6 @@ function App() {
           <Route exact path="/Portfolio"><Portfolio /></Route>
           <Route exact path="/Contact"><Contact /></Route>
           <Route path="/*"><About /></Route>
-          {/* <Route exact path="/About" component={About} />
-          <Route exact path="/Portfolio" component={Portfolio} />
-          <Route exact path="/Contact" component={Contact} />
-          <Route path="/*" component={About} /> */}
-          {/* <Route exact path="/About" render={() => <About />} />
-          <Route exact path="/Portfolio" render={() => <Portfolio />} />
-          <Route exact path="/Contact" render={() => <Contact />} />
-          <Route path="/*" render={() => <About />} /> */}
         </Switch>
         <Footer />
       </div>
