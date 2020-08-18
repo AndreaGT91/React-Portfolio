@@ -114,6 +114,7 @@ dist
 
 # production
 /build
+/gh-pages
 
 # misc
 .DS_Store
