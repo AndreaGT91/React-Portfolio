@@ -1,4 +1,11 @@
 [
+  { "id": 15,
+    "name": "Google Books",
+    "type": "(Homework)",
+    "imgFile": "Google-Books.png",
+    "repoLink": "https://github.com/AndreaGT91/Google-Books",
+    "deployLink": "https://shrouded-dusk-90862.herokuapp.com/"
+  },
   { "id": 14,
     "name": "Employee Directory",
     "type": "(Homework)",
