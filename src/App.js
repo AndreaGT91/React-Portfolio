@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import About from "./pages/About";
@@ -9,18 +9,8 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 function App() {
-  const pathArray = window.location.pathname.split("/");
-  let basePath = "";
-
-  if (pathArray.length > 0) {
-    pathArray.pop();
-    basePath = pathArray.join("/");
-  };
-
-  const [pathState] = useState(basePath);
-
   return (
-    <Router basename={pathState}>
+    <Router>
       <div>
         <Nav />
         <Switch>

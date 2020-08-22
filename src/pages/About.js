@@ -9,6 +9,8 @@ import Figure from "../components/Figure";
 import Image from "../components/Image";
 import Paragraph from "../components/Paragraph";
 
+
+
 function About() {
   return (
     <Wrapper>
@@ -30,8 +32,7 @@ function About() {
               Completion in Web Development from Georgia Tech Professional Education. Professional experience in 
               object-oriented programming, rapid application development tools, and collaborating with a team 
               to create a finished product. Main area of interest is UI/UX, with strong analytical skills that 
-              are well-suited for full-stack development.s UI/UX, with strong analytical skills that are 
-              well-suited for full-stack development.
+              are well-suited for full-stack development.
             </Paragraph>
           </Column>
         </Row>

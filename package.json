@@ -2,24 +2,33 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andreagt91.github.io/React-Portfolio/",
+  "description": "Portfolio for Andrea C. Bentley",
+  "homepage": "http://bentleytech.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreaGT91/React-Portfolio.git"
+  },
+  "engines": {
+    "node": ">14.0.0",
+    "npm": ">6.0.0"
+  },
+  "author": {
+    "name": "Andrea C. Bentley",
+    "url": "http://bentleytech.com"
+  },
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-materialize": "^3.9.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "serve": "^11.3.2"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "heroku-postbuild": "npm run build",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   }
 }

@@ -1,11 +1,13 @@
 # React-Portfolio
-Redesigned personal portfolio using React
+Redesigned personal portfolio using React   
+
+[bentleytech.com](http://bentleytech.com)
 
 ## GitHub Repository
 [github.com/AndreaGT91/React-Portfolio](https://github.com/AndreaGT91/React-Portfolio)
 
 ## GitHub Deployment
-[andreagt91.github.io/React-Portfolio/](https://andreagt91.github.io/React-Portfolio/)
+[andreagt91.github.io/React-Portfolio](https://andreagt91.github.io/React-Portfolio/)
 
 ## Installation 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
