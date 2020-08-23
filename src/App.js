@@ -9,7 +9,6 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 function App() {
-  alert("window.location.pathname: " + window.location.pathname);
   const pathArray = window.location.pathname.split("/");
   let basePath = "";
 
@@ -21,8 +20,6 @@ function App() {
   if (basePath === "") {
     basePath = "/";
   };
-
-  alert("basePath: " + basePath);
 
   const [pathState] = useState(basePath);
 
