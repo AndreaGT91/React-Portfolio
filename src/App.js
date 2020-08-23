@@ -9,20 +9,21 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 function App() {
-  const pathArray = window.location.pathname.split("/");
-  let basePath = "";
+  // const pathArray = window.location.pathname.split("/");
+  // let basePath = "";
 
-  if (pathArray.length > 0) {
-    pathArray.pop();
-    basePath = pathArray.join("/");
-  };
+  // if (pathArray.length > 0) {
+  //   pathArray.pop();
+  //   basePath = pathArray.join("/");
+  // };
 
-  if (basePath === "") {
-    basePath = "/";
-  };
+  // if (basePath === "") {
+  //   basePath = "/";
+  // };
 
-  const [pathState] = useState(basePath);
-
+  // const [pathState] = useState(basePath);
+  const [pathState] = useState(window.location.pathname);
+  
   return (
     <Router basename={pathState}>
       <>
