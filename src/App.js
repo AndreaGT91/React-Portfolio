@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from 'react';
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -9,23 +9,8 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 function App() {
-  const pathArray = window.location.pathname.split("/");
-  let basePath = "";
-
-  if (pathArray.length > 0) {
-    pathArray.pop();
-    basePath = pathArray.join("/");
-  };
-
-  if (basePath === "") {
-    basePath = "/";
-  };
-
-  const [pathState] = useState(basePath);
-
   return (
-    <Router basename = {pathState}>
-      pathState: {pathState}
+    <Router>
       <>
         <Nav />
         <Switch>
