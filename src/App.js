@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import About from "./pages/About";
@@ -9,8 +9,10 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 function App() {
+  const [pathState] = useState("/");
+
   return (
-    <Router>
+    <Router basename = {pathState}>
       <>
         <Nav />
         <Switch>
