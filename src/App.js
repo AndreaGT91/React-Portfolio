@@ -9,7 +9,19 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 function App() {
-  const [pathState] = useState(window.location.pathname);
+  const pathArray = window.location.pathname.split("/");
+  let basePath = "";
+
+  if (pathArray.length > 0) {
+    pathArray.pop();
+    basePath = pathArray.join("/");
+  };
+
+  if (basePath === "") {
+    basePath = "/";
+  };
+
+  const [pathState] = useState(basePath);
   
   return (
     <Router basename={pathState}>
