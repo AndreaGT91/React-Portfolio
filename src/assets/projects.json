@@ -2,15 +2,15 @@
   { "id": 20,
     "name": "Spreadsheet Manager",
     "type": "(Group Project)",
-    "imgFile": "Google-Books.png",
+    "imgFile": "Spreadsheet-Manager.png",
     "repoLink": "https://github.com/AndreaGT91/spreadsheet-manager",
-    "deployLink": "https://spreadsheet-manager..herokuapp.com/",
+    "deployLink": "https://spreadsheet-manager.herokuapp.com/",
     "description": "A React app that allows users to import spreadsheets to create MongoDB collections."
   },
   { "id": 19,
     "name": "Build-A-Base",
     "type": "(Group Project)",
-    "imgFile": "Google-Books.png",
+    "imgFile": "Build-A-Base.png",
     "repoLink": "https://github.com/AndreaGT91/Build-A-Base",
     "deployLink": "https://build-a-base.herokuapp.com/",
     "description": "A painful example of when group projects go wrong."
@@ -25,7 +25,7 @@
   { "id": 17,
     "name": "Portfolio - Take 3",
     "type": "(Homework)",
-    "imgFile": "Google-Books.png",
+    "imgFile": "Portfolio3.png",
     "repoLink": "https://github.com/AndreaGT91/React-Portfolio",
     "deployLink": "https://andreagt91.github.io/React-Portfolio/",
     "description": "Recreated Portfolio using React."
@@ -96,7 +96,7 @@
   { "id": 7,
     "name": "Portfolio - Take 2",
     "type": "(Homework)",
-    "imgFile": "Readme-Generator.png",
+    "imgFile": "Portfolio2.png",
     "repoLink": "https://github.com/AndreaGT91/Portfolio",
     "deployLink": "https://andreagt91.github.io/Portfolio/",
     "description": "Second attempt at portfolio; utilized JavaScript this time."
@@ -139,7 +139,7 @@
   { "id": 1,
     "name": "Portfolio - Take 1",
     "type": "(Homework)",
-    "imgFile": "Password-Generator.png",
+    "imgFile": "Portfolio1.png",
     "repoLink": "https://github.com/AndreaGT91/Homework2",
     "deployLink": "https://andreagt91.github.io/Homework2",
     "description": "First attempt at a portfolio, using only HTML and CSS."
