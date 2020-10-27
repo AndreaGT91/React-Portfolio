@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "092932f943576c1b252c51ec4c15da67",
+    "revision": "eb6822d89bee7e001285f702e5329678",
     "url": "/React-Portfolio/index.html"
   },
   {
-    "revision": "33c8372d34b6eb929dae",
+    "revision": "14ea8145f19fdb8600f7",
     "url": "/React-Portfolio/static/css/2.36020323.chunk.css"
   },
   {
-    "revision": "f20935170185d91c3245",
+    "revision": "df855280c32c33a6a4ec",
     "url": "/React-Portfolio/static/css/main.7392a778.chunk.css"
   },
   {
-    "revision": "33c8372d34b6eb929dae",
-    "url": "/React-Portfolio/static/js/2.99c0fa5c.chunk.js"
+    "revision": "14ea8145f19fdb8600f7",
+    "url": "/React-Portfolio/static/js/2.28b09a80.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/React-Portfolio/static/js/2.99c0fa5c.chunk.js.LICENSE.txt"
+    "url": "/React-Portfolio/static/js/2.28b09a80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f20935170185d91c3245",
-    "url": "/React-Portfolio/static/js/main.c53b537a.chunk.js"
+    "revision": "df855280c32c33a6a4ec",
+    "url": "/React-Portfolio/static/js/main.57b9b460.chunk.js"
   },
   {
     "revision": "bcebe2d38e8b197ca4b9",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42cfec486e5fa82da3d96a51d5e482c0",
     "url": "/React-Portfolio/static/media/Budget-Tracker.42cfec48.png"
+  },
+  {
+    "revision": "0ab7edcdeb3e833926fd6da0bd6d048c",
+    "url": "/React-Portfolio/static/media/Build-A-Base.0ab7edcd.png"
   },
   {
     "revision": "9cc9d28edf93b58982a59549351de25c",
@@ -72,6 +76,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/media/Password-Generator.18e0efbf.png"
   },
   {
+    "revision": "7d1e76e64c11fd33d91fcb1f06990737",
+    "url": "/React-Portfolio/static/media/Portfolio1.7d1e76e6.png"
+  },
+  {
+    "revision": "289c794880dd41927e44b6bef112ce43",
+    "url": "/React-Portfolio/static/media/Portfolio2.289c7948.png"
+  },
+  {
+    "revision": "8266edc9d79a6b43aca7627f551846bb",
+    "url": "/React-Portfolio/static/media/Portfolio3.8266edc9.png"
+  },
+  {
     "revision": "a76f85bc7b9920b45c53b7adde1833c3",
     "url": "/React-Portfolio/static/media/Profile.a76f85bc.jpg"
   },
@@ -86,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "14b0a513044216958e56a4a5a2b9e287",
     "url": "/React-Portfolio/static/media/Recipe-Xchange.14b0a513.png"
+  },
+  {
+    "revision": "106bfab011d56de04537c1d1ca737f16",
+    "url": "/React-Portfolio/static/media/Spreadsheet-Manager.106bfab0.png"
   },
   {
     "revision": "2f6f19e63a03351f147fefd860b1c8bb",
