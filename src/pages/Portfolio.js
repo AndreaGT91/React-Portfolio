@@ -19,9 +19,9 @@ function Portfolio() {
             Click on image for deployed application; click on caption for GitHub repository.
           </Header6>
           <Header6>
-            In February 2020, I began the Georgia Tech Coding Bootcamp in Web Development. 
-            These are the individual homework and group project assignments, most recent first. 
-            The oldest are fairly simple, but they increase in complexity as time goes on.
+            Projects listed in reverse chronological order. Group projects and 
+            homeworks are from Georgia Tech Coding Bootcamp in 2020. The oldest 
+            are fairly simple, but they increase in complexity as time goes on.
           </Header6>
         </Row>
         <Row>

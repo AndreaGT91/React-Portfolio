@@ -18,7 +18,8 @@ function Project({ name, type, imgFile, repoLink, deployLink }) {
     <Column page="Portfolio">
       <Figure>
         <Anchor htmlRef={depLink}>
-          <Image classes="my-image" source={require("../../assets/" + imgFile)} altText={name} />
+          <Image classes="my-image" source={require("../../assets/" + imgFile).default} 
+            altText={name} />
         </Anchor>
         <Anchor htmlRef={repoLink}>
           <figcaption>{name} {type}</figcaption>
