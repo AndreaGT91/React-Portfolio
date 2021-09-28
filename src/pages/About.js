@@ -1,4 +1,5 @@
 import React from "react";
+
 import Wrapper from "../components/Wrapper";
 import Container from "../components/Container";
 import Header1 from "../components/Header1";
@@ -9,6 +10,9 @@ import Figure from "../components/Figure";
 import Image from "../components/Image";
 import Paragraph from "../components/Paragraph";
 
+import profilePic from "../assets/Profile.jpg";
+import resumePDF from "../assets/Andrea-Bentley-Resume.pdf";
+
 function About() {
   return (
     <Wrapper>
@@ -18,9 +22,9 @@ function About() {
         <br />
         <Row>
           <Column page="About">
-            <Anchor htmlRef={require("../assets/Andrea-Bentley-Resume.pdf")}>
+            <Anchor htmlRef={resumePDF}>
               <Figure classes="profile-figure">
-                <Image source={require("../assets/Profile.jpg")} altText="Andrea Bentley" />
+                <Image source={profilePic} altText="Andrea Bentley" />
                 <figcaption>Resume</figcaption>
               </Figure>
             </Anchor>
@@ -46,11 +50,6 @@ function About() {
               it was generally old and outdated. We redesigned the application for Windows 95 from the ground up. 
               The ultimate reward was talking to clients at our User Conference about how much they loved the new 
               application and how easy it was to use.
-            </Paragraph>
-            <Paragraph>In my current position as the Registrar at a public middle school, I have learned that I am 
-              very fortunate. Parents who are registering their students at our school feel very comfortable sharing 
-              their stories with me, and they are often heartbreaking. It is a compliment to me that I am able to make 
-              the parents feel at ease about entrusting our school with their children.
             </Paragraph>
             <Paragraph>In my personal life, I am blessed that I was able to stay home with my own children until 
               they were in school, and then to work part-time so that I could be home when they were home. I am 
