@@ -1,4 +1,20 @@
 [
+  { "id": 22,
+    "name": "Slattery Company LLC",
+    "type": "(Freelance work - under construction)",
+    "imgFile": "Slattery-Company-LLC.png",
+    "repoLink": "https://github.com/AndreaGT91/SlatteryCompanyLLC",
+    "deployLink": "https://andreagt91.github.io/SlatteryCompanyLLC/",
+    "description": "Company website for Slattery Company, LLC; still under construction."
+  },
+  { "id": 21,
+    "name": "Bentley Family Favorite Recipes",
+    "type": "(Personal project)",
+    "imgFile": "recipes.png",
+    "repoLink": "https://github.com/AndreaGT91/recipes",
+    "deployLink": "http://bentleytech.com/recipes/",
+    "description": "A very simple React app that allows access to family recipes we have stored online."
+  },
   { "id": 20,
     "name": "Spreadsheet Manager",
     "type": "(Group Project)",
